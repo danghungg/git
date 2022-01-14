@@ -1,0 +1,38 @@
+Arrow Function: là cách viết ngắn gọi cho funtion của mình để dòng code trông gọn gàng và dễ 
+hiểu hơn.
+
+
+
+CALL BACK:
+- Đồng bộ(Sync): là thằng nào viết trước thì chạy tước, ai viết sau thì in sau.
+- Bất đồng bộ(Async): là thẻ hiện việc không tuân theo hoạt động trước sau của việc viết đối tượng.
+ 
+
+
+ để hiểu vấn đề này ta phải hiểu function là gì: nó là một frist class object hay giống như 
+một đối tượng vậy. Thế nên vị trí lưu trữ của function , object hay array đều như nhau.
+Nó có thể lưu trữ dưới dạng biến và truyền đi dưới dạng tham số. Đây cũng chính là bản chất
+thực của callBack function.
+
+promise: dùng để kiểm soát các dự án bất đồng bộ với nhau khắc phụ tình trạng callback hell trong
+call back. Muốn dùng dc promise thì ta phải khai báo biến new promise(). 
+
+Promise contructor:tham số sẽ nhận function. Function có hai tham số là RESOLE,REJECT.
+viết login. Xong đó nếu thành công gọi RESOLE còn thất bại thì gọi REJECT. Nếu ko xử lý thành công
+hoặc thất bại sẽ gây ra lỗi memory leak(rò rỉ bộ nhớ). 
+
+Promise  nhận 3 phương thức là:then,catch,finally.
+
+Ban đầu khi ko có RESOLE,REJECT là promise đang ở trạng thái chờ, có tên gọi là Pendding.Trạng
+thái này nếu chạy thì sẽ gây ra lỗi memory leak.
+
+Nếu đã được xử lý RESOLE thì nó ở trạng thái hoạt động hay gọi là fulfilled.
+
+Nếu dc xử lý REJECT thì nó ở trạng thái REJECT:lỗi.
+
+- KEY MỤC TIÊU: Đạt được cái gì rõ ràng trong 1 thời gian.Học trong 1 time nhanh nhất để ra
+dc sản phản nào đó.
+
+- Cần chủ động làm việc khi đang làm việc.
+- Bình tĩnh, học từng chút một mỗi ngày học 4 tast ở f8.
+- Trở thành người cầu toàn. Luôn khẳng định là luôn thành công.
